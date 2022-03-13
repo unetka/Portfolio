@@ -1,10 +1,12 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Bebas Neue', cursive;
 }
 
 
 header{
+    text-align: center;
     width: 100vw;
     height: 98vh;
     background-color: white;
@@ -85,12 +87,14 @@ a{
 }
 
 .head-img{
-    width: 943.61px;
+    width: 100vw;
     height: 387px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
     margin-top: 100px;
-    background: url(img/BSPP2266.png);
+}
+
+.img1{
+    width: 60vw;
 }
 
 .about{
@@ -111,7 +115,9 @@ a{
     text-align: center;
 }
 
-
+.skills{
+    margin-bottom: 105px;
+}
 
 .skil_text{
     padding-top: 25px;
@@ -177,6 +183,86 @@ a{
 .photoshop1 p{
     margin-top: 25px;
 }
+
+.portfolio{
+    padding-top: 112px;
+    margin-top: 25px;
+    background: #F6F6F6;
+    width: 100vw;
+    text-align: center;
+}
+
+.portfolio h1{
+    text-align: center;
+}
+
+.portfolio_img{
+    margin-top: 99px;
+    margin-bottom: 49px;
+}
+
+.portfolio_img a{
+    color: black;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.portfolio a:hover{
+    color: dimgray;
+}
+
+.portfolio{
+    border: .8px solid black;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+footer{
+    padding-top: 114px;
+    background-color: white;
+    width: 100wv;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer button{
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    align-items: center;
+    width: 180px;
+    height: 44px;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+    transition: .2s linear;
+}
+footer button:hover{
+    color: black;
+    background-color: White;
+    border: 2px solid black;
+    transition: .2s linear;
+}
+
+.icon{
+    margin-top: 86px;
+}
+
+.icon img{
+    margin-right: 25px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
